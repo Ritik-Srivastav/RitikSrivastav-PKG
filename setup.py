@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     package_dir = {"": "src"},
     packages = setuptools.find_packages(where="src"),
-    python_requires = ">=3.6"
+    python_requires = ">=3.6",
     install_requires = [
         "numpy==1.21.6",
         "pandas==1.1.5",
